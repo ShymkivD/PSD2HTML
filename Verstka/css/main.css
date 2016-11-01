@@ -23,7 +23,9 @@ body{
     border-radius: 30px;
     border: 2px solid #ec495e;
     display: inline-block;
-    padding: 12px 30px;
+    padding: 20px 30px;
+    width: 230px;
+    height: 60px;
 }
 .my_btn a{
     color: #fff;
