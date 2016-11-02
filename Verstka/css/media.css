@@ -3,17 +3,25 @@
 @media only screen and (max-width : 992px) {
 
     h1{
-        font-size: 50px;
+        padding-top: 40px;
+        font-size: 40px;
+    }
+    header{
+        height: 820px;
     }
     .subtitle_h1{
         font-size: 22px;
     }
     .logo1 {
-        font-size: 28px;
-        padding-left: 10%;
+        font-size: 26px;
+        padding-left: 1%;
     }
     .logo2{
-        font-size: 45px;
+        font-size: 40px;
+        padding-right: 10%;
+    }
+    .menu{
+        margin: 30px 0 45px 0;
     }
     .menu li a{
         font-size: 14px;
@@ -21,17 +29,60 @@
     }
     .my_btn{
         font-size: 10px;
-        letter-spacing: 1px;
-        line-height: 1;
-        border-radius: 30px;
+        padding: auto;
+        width: 200px;
+        height: 50px;
         }
     h3{
-        font-size: 38px;
+        font-size: 34px;
         padding-bottom: 12px;
     }
     .subtitle{
         line-height: 2.2;
         padding-bottom: 35px;
+    }
+    .div_quote{
+    position: static;
+    }
+    #promote{
+        text-align: center;
+        background-image:none;
+    }
+    footer, header{
+        text-align: center;
+    }
+    .numbers_text {
+        font-size: 60px;
+        padding-right: 10px;
+    }
+    .step{
+        font-size: 22px;
+    }
+    .peopleQuoteP{
+        font-size: 18px;
+    }
+    .project_p{
+        font-size: 22px;
+    }
+    .contacts_p1, .contacts_p2, .contacts_p3{
+        font-size: 18px;
+    }
+    .plan_header{
+        font-size: 24px;
+    } 
+    .contact_us_btn{
+        font-size: 18px;
+    }
+    .tellabout_p{
+        font: 400 20px / 30px Lora;
+        padding-bottom: 26px;
+    }
+    .tellabout_numbers{
+        font-size: 35px;
+        padding-bottom:28px; 
+    }
+    .brands{
+        padding-bottom: 60px; 
     }
 }
 
@@ -39,19 +90,23 @@
 @media only screen and (max-width : 768px) {
 
     h1{
-        padding: 180px 0 15px 0;
         font-size: 36px;
     }
+    header{
+        height: 710px;
+    }
     .subtitle_h1{
-        font-size: 20px;
+        font-size: 18px;
+    }
+    footer, header{
+        text-align: center;
     }
     .logo1 {
         font-size: 22px;
-        padding-left: 10%;
     }
     .logo2{
-        font-size: 36px;
-        padding-right: 30%;
+        font-size: 34px;
+        padding-right: 10%;
         padding-bottom: 30px;
     }
     .menu li{
@@ -60,15 +115,13 @@
     }
     .menu li a{
         font-size: 16px;
-        padding: 12px 12px;
+        padding: 18px 12px;
     }
     .my_btn{
         font-size: 10px;
-        letter-spacing: 1px;
-        line-height: 1;
-        border-radius: 30px;
-        margin: 20px auto;
-        padding: 15px 30px;
+        padding: 18px 10px;
+        width: 160px;
+        height: 50px;
     }
     h3{
     font-size: 34px;
@@ -82,35 +135,36 @@
     section{
         padding: 65px 0;
     }
-    .step{
-        font-size: 20px;
-    }
-    .stepP{
-        font-size: 14px;
-    }
 }
+
 
 
 @media only screen and (max-width : 480px) {
 
     h1{
-        padding: 120px 0 15px 0;
         font-size: 24px;
     }
     .subtitle_h1{
-        font-size: 16px;
+        font-size: 14px;
+        line-height: 1.1;
+    }
+    header{
+        height: 710px;
+    }
+    .subtitle_h1{
+        font-size: 18px;
+    }
+    footer, header{
+        text-align: center;
     }
     .logo1 {
-        font-size: 18px;
-        padding-left: 10%;
+        font-size: 22px;
     }
     .logo2{
-    font-size: 28px;
-    letter-spacing: 0px;
-    text-align: center;
-    padding-right: 30%;
-    padding-bottom: 30px;
-}
+        font-size: 34px;
+        padding-right: 10%;
+        padding-bottom: 30px;
+    }
     .menu li{
         text-align: center;
     }
@@ -120,28 +174,56 @@
     }
     .my_btn{
         font-size: 10px;
-        letter-spacing: 1px;
-        line-height: 1;
-        border-radius: 30px;
-        margin: 20px auto;
-        padding: 12px 30px;
+        padding: 18px 10px;
+        width: 160px;
+        height: 50px;
     }
     h3{
-    font-size: 30px;
+    font-size: 26px;
     padding-bottom: 12px;
 }
     .subtitle{
-        font-size: 12px;
+        font-size: 14px;
         line-height: 2.2;
         padding-bottom: 25px;
     }
     section{
-        padding: 45px 0;
+        padding: 25px 0;
     }
     .step{
         font-size: 16px;
     }
+    .peopleQuoteP{
+        font-size: 14px;
+    }
+    .project_p{
+        font-size: 16px;
+    }
+    .contacts_p1, .contacts_p2, .contacts_p3{
+        font-size: 14px;
+    }
+    .plan_header{
+        font-size: 24px;
+    } 
+    .contact_us_btn{
+        font-size: 18px;
+    }
+    .tellabout_p{
+        font: 400 20px / 30px Lora;
+        padding-bottom: 26px;
+    }
+    .tellabout_numbers{
+        font-size: 26px;
+        padding-bottom:22px; 
+    }
+    .brands{
+        padding-bottom: 45px; 
+    }
+    .numbers_text {
+        font-size: 45px;
+        padding-right: 10px;
+    }
     .stepP{
-        font-size: 12px;
+        font-size: 14px;
     }
 }
